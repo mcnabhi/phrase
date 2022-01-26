@@ -1,0 +1,98 @@
+html {
+    background-color: white;
+    align-content: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    background-color: rgb(255, 255, 255);
+}
+
+.left {
+    padding: 40px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(0, 180, 252);
+}
+
+.main{
+    
+}
+
+.apps {
+    float: left;
+}
+
+.apps img {
+    width: 170px;
+    padding: 30px;
+}
+
+.footimg {
+    width: 20px;
+}
+
+.clr {
+    clear: both;
+}
+
+footer {
+    background-color: black;
+    
+}
+
+#footer {
+    background-color: black;
+}
+
+.foot {
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+form h2 {
+    font-size: 100%;
+    
+}
+
+form .submit {
+    width: 10%;
+    font-size: 90%;
+    color: cornflowerblue;
+}
+
+form #comments {
+    color: crimson;
+    font-size: 25px;
+    width: 70%;
+    
+}
+
+@media only screen and (max-width: 445px) {
+    .left {
+        padding: 5px;
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: rgb(0, 180, 252);
+    }
+
+    .apps img {
+        width: 140px;
+        padding: 20px;
+    }
+
+    form .submit {
+        width: 30%;
+        font-size: 90%;
+        color: cornflowerblue;
+    }
+
+   
+
+}
